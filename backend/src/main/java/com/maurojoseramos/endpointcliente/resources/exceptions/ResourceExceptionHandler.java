@@ -13,7 +13,7 @@ import com.maurojoseramos.endpointcliente.services.exceptions.DatabaseException;
 import com.maurojoseramos.endpointcliente.services.exceptions.ResourceNotFoundException;
 
 @ControllerAdvice
-public class ResourceExcepitionHandler {
+public class ResourceExceptionHandler {
 	
 	@ExceptionHandler(ResourceNotFoundException.class)
 	public ResponseEntity<StandardError> entityNotFound(ResourceNotFoundException e, HttpServletRequest request){

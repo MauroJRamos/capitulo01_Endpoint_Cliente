@@ -23,7 +23,7 @@ import com.maurojoseramos.endpointcliente.services.ClientService;
 
 @RestController
 @RequestMapping(value = "/clients")
-public class ClienteResource {
+public class ClientResource {
 	
 	@Autowired 
 	public ClientService service;
